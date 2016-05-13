@@ -1,0 +1,35 @@
+body {
+    background-color: #3c3c3c;
+}
+
+.game-window {
+    background-color: #fff;
+    margin: 0 auto;
+    width: 800px;
+    height: 600px;
+    border: 2px solid #B43104;
+}
+
+.game-screen {
+    background-color: #222;
+    width: 100%;
+    height: 100%;
+}
+
+#input-level-code {
+    border: solid #B43104 2px;
+    background-color: #3c3c3c;
+    color: #B43104;
+    font-size: 18pt;
+    width: 400px;
+    position: relative;
+    top: 250px;
+    left: 200px;
+}
+
+#btn-start-game {
+    width: 200px;
+    position: relative;
+    top: 350px;
+    left: -100px;
+}
