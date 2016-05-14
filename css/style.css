@@ -1,5 +1,5 @@
 body {
-    background-color: #3c3c3c;
+    background-color: #3c3c3c;    
 }
 
 .game-window {
@@ -19,7 +19,6 @@ body {
 #input-level-code {
     border: solid #B43104 2px;
     background-color: #3c3c3c;
-    color: #B43104;
     font-size: 18pt;
     width: 400px;
     position: relative;
@@ -28,8 +27,22 @@ body {
 }
 
 #btn-start-game {
+    background-color: #000;
+    border: solid #B43104 2px;
+    color: #B43104;
+    font-size: 14pt;
     width: 200px;
     position: relative;
     top: 350px;
-    left: -100px;
+    left: 300px;
+}
+
+.centre-text {
+    text-align: center;
+    position: relative;
+    font-size: 14pt;
+    color: #B43104;
+    width: 400px;
+    top: 240px;
+    left: 200px;
 }
